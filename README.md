@@ -26,6 +26,7 @@ teachBers/
 - ├── images/ # Input images
 - ├── fotoCifre/ # Extracted digit images
 - ├── risultati/ # Processed output and analysis
+- ├── modello/ # The Machine Learning model
 
 
 ## 🧰 Requirements
