@@ -21,11 +21,11 @@ The feedback system is built on:
 
 ## 🗂 Project Structure
 teachBers/ 
-  ├── teachbers.py # Main Python script 
-  ├── addestramento_modello.ipynb # Jupyter notebook that create the machine learning model
-  ├── images/ # Input images 
-  ├── fotoCifre/ # Extracted digit images 
-  ├── risultati/ # Processed output and analysis
+- ├── teachbers.py # Main Python script
+- ├── addestramento_modello.ipynb # Jupyter notebook that create the machine learning model
+- ├── images/ # Input images
+- ├── fotoCifre/ # Extracted digit images
+- ├── risultati/ # Processed output and analysis
 
 
 ## 🧰 Requirements
