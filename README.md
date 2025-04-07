@@ -32,8 +32,11 @@ teachBers/
 
 Install dependencies with:
 - library:
-  - opencv-python
+  - openai
+  - joblib
   - numpy
+  - opencv-python
+  - pillow
   - matplotlib
 - LM Studio
 - Model: gemma-2-2b-it-gguf (download and configure inside LM Studio)
