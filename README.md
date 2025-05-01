@@ -41,7 +41,7 @@ Install dependencies with:
 pip install openai joblib numpy opencv-python pillow matplotlib
 ```
 
-## Developed by
+## 👩‍💻 Developed by
 This project was developed by:
 
 - *Bergia Benedetta*
