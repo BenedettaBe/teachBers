@@ -1,3 +1,4 @@
+![teachBers logo](logo_teachBers.png)
 # TeachBers - Teacher of Numbers.
 
 **TeachBers** is an educational project in Python designed to help children improve number writing. It uses computer vision to analyze handwritten numbers and integrates with a local language model (Gemma 2B IT) via LM Studio to provide personalized feedback and suggestions for improvement.
