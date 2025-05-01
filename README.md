@@ -21,7 +21,6 @@ The feedback system is executed locally using:
 
 ## 🗂 Project structure.
 
-```
 teachBers/
 ├── teachbers. py # Main Python script
 ├── images/ # Images saved in the program execution
@@ -29,7 +28,6 @@ teachBers/
 ├── results/ # Output processed for feedback
 ├── model/ # ML model and Jupyter notebook for training
 
-```
 
 ## 🧰 Requirements
 
