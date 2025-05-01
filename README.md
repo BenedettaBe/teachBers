@@ -40,3 +40,10 @@ Install dependencies with:
 ```bash
 pip install openai joblib numpy opencv-python pillow matplotlib
 ```
+
+## Developed by
+This project was developed by:
+
+- *Bergia Benedetta*
+- *Peruzzi Viola*
+- *Singh Kirti*
