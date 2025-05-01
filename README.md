@@ -27,6 +27,7 @@ teachBers/
 ├── photoFigures/ # Images of digits extracted in input
 ├── results/ # Output processed for feedback
 ├── model/ # ML model and Jupyter notebook for training
+├── standard/ # Images of the standard digits for the comparison
 ```
 
 ## 🧰 Requirements
