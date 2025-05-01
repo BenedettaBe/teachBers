@@ -1,42 +1,55 @@
-# teachBers (Teacher of Numbers)
+# TeachBers – Teacher of Numbers
 
-**teachBers** is an educational Python project designed to support children in improving their digit handwriting. It uses computer vision techniques to analyze how numbers are written, and integrates with a local language model (Gemma 2B IT) via LM Studio to provide personalized feedback and suggestions.
+**TeachBers** is an educational Python project designed to help children improve their digit handwriting. It uses computer vision to analyze handwritten numbers and integrates with a local language model (Gemma 2B IT) via LM Studio to provide personalized feedback and improvement tips.
 
-## 🔍 Purpose
+## 🎯 Purpose
 
-The goal of this project is to combine image processing with AI-assisted analysis to:
+The goal of this project is to combine image processing with AI-powered analysis to:
 
-- Encourage better number writing habits.
-- Provide real-time or batch feedback on handwritten digits.
-- Engage children in a fun, interactive, and technology-enhanced learning process.
+- Encourage proper handwriting habits for numbers.
+- Provide real-time or batch feedback on digit writing.
+- Engage children in a fun, interactive, and tech-enhanced learning experience.
 
 ## 🧠 Powered by Local AI
 
-The feedback system is built on:
+The feedback system runs locally using:
 
 - [LM Studio](https://lmstudio.ai/) (offline AI model runner)
-- `gemma-2-2b-it-gguf` (Italian language model in GGUF format)
+- Model: `gemma-2-2b-it-gguf` (an Italian language model in GGUF format)
 
-> ⚠️ Make sure LM Studio is running and configured with `gemma-2-2b-it-gguf` for full functionality.
+> ⚠️ Make sure LM Studio is running and configured with `gemma-2-2b-it-gguf` for the system to work correctly.
 
 ## 🗂 Project Structure
-teachBers/ 
-- ├── teachbers.py # Main Python script
-- ├── images/ # Input images
-- ├── fotoCifre/ # Extracted digit images
-- ├── risultati/ # Processed output and analysis
-- ├── modello/ # The Machine Learning model and Jupyter notebook that create the machine learning model
 
+```
+teachBers/
+├── teachbers.py         # Main Python script
+├── images/              # Input images
+├── fotoCifre/           # Extracted digit images
+├── risultati/           # Processed output and feedback
+├── modello/             # ML model and Jupyter notebook for training
+```
 
 ## 🧰 Requirements
 
 Install dependencies with:
-- library:
-  - openai
-  - joblib
-  - numpy
-  - opencv-python
-  - pillow
-  - matplotlib
-- LM Studio
-- Model: gemma-2-2b-it-gguf (download and configure inside LM Studio)
+
+```bash
+pip install openai joblib numpy opencv-python pillow matplotlib
+```
+
+Additional requirements:
+
+- [LM Studio](https://lmstudio.ai/)
+- Model: `gemma-2-2b-it-gguf` (download and configure in LM Studio)
+
+---
+
+## 🚀 Future Improvements (optional)
+
+Some possible future features include:
+
+- A child-friendly graphical user interface
+- Age-based digit evaluation
+- Voice feedback for greater engagement
+- Progress tracking and performance statistics over time
