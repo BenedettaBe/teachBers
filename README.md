@@ -20,14 +20,14 @@ The feedback system is executed locally using:
 > ⚠️ Make sure LM Studio is running and configured with `gemma-2-2b-it-gguf` for the system to work properly.
 
 ## 🗂 Project structure.
-
+```
 teachBers/
 ├── teachbers. py # Main Python script
 ├── images/ # Images saved in the program execution
 ├── photoFigures/ # Images of digits extracted in input
 ├── results/ # Output processed for feedback
 ├── model/ # ML model and Jupyter notebook for training
-
+```
 
 ## 🧰 Requirements
 
