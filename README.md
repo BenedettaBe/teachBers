@@ -24,9 +24,8 @@ The feedback system is executed locally using:
 teachBers/
 ├── teachbers. py # Main Python script
 ├── images/ # Images saved in the program execution
-├── photoFigures/ # Images of digits extracted in input
-├── results/ # Output processed for feedback
-├── model/ # ML model and Jupyter notebook for training
+├── risultati/ # Output processed for feedback
+├── modello/ # ML model and Jupyter notebook for training
 ├── standard/ # Images of the standard digits for the comparison
 ```
 
